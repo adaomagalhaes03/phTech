@@ -50,14 +50,14 @@ const Navbar = () => {
         </div>
 
         {/* Mobile Menu */}
-        <div className={`lg:hidden ${isMobileMenuOpen ? 'block' : 'hidden'} absolute top-16 left-0 w-full bg-gray-800 p-4`}>
+        <div className={`lg:hidden ${isMobileMenuOpen ? 'block' : 'hidden'} absolute top-16 left-0 w-full bg-white p-4`}>
           <ul className="flex flex-col space-y-4">
-            <li><a className="text-white hover:text-orange-500" href="https://www.newfold.com/brands">Brands</a></li>
-            <li><a className="text-white hover:text-orange-500" href="https://www.newfold.com/leadership">Leadership</a></li>
-            <li><a className="text-white hover:text-orange-500" href="https://www.newfold.com/careers">Careers</a></li>
-            <li><a className="text-white hover:text-orange-500" href="https://www.newfold.com/newsroom">Newsroom</a></li>
-            <li><a className="text-white hover:text-orange-500" href="https://www.newfold.com/contact">Contact us</a></li>
-            <li><a className="text-white hover:text-orange-500" href="https://www.newfold.com/values">Values</a></li>
+            <li><a className="text-black hover:text-orange-500" href="https://www.newfold.com/brands">Marcas</a></li>
+            <li><a className="text-black hover:text-orange-500" href="https://www.newfold.com/leadership">Lideranças</a></li>
+            <li><a className="text-black hover:text-orange-500" href="https://www.newfold.com/careers">Carreiras</a></li>
+            <li><a className="text-black hover:text-orange-500" href="https://www.newfold.com/newsroom">Salas de Impresa</a></li>
+            <li><a className="text-black hover:text-orange-500" href="https://www.newfold.com/contact">Contacta-nos</a></li>
+            <li><a className="text-black hover:text-orange-500" href="https://www.newfold.com/values">Valores</a></li>
           </ul>
         </div>
       </div>
