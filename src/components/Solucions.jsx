@@ -5,7 +5,7 @@ const SolutionsPortugueseSection = () => {
   return (
     <section
       id="solutions-portuguese"
-      className="pt-12 pb-12 ptMobile-6 pbMobile-6 bg-gray-100 flex flex-col items-center"
+      className="pt-12 pb-12  ptMobile-6 pbMobile-6 bg-gray-100 flex flex-col items-center"
       style={{
         backgroundImage: 'url(/path/to/your/background-image.jpg)', // Substitua pelo caminho correto da imagem
         backgroundSize: 'cover',
@@ -16,7 +16,7 @@ const SolutionsPortugueseSection = () => {
         <div className="text-center mb-8">
           <div className=" p-6 rounded-md">
           <div className="mt-4">
-              <h3 className="text-3xl  font-semibold text-blue-400">
+              <h3 className="text-3xl font-semibold text-blue-400">
                 Nossas Soluções
               </h3>
             </div>
@@ -32,7 +32,7 @@ const SolutionsPortugueseSection = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-4 gap-4">
+        <div className="grid m-10 grid-cols-1 sm:grid-cols-4 gap-4">
           {/* Domínios */}
           <div className="bg-blue-400 p-6 text-center rounded-md">
             <img
@@ -71,7 +71,7 @@ const SolutionsPortugueseSection = () => {
           </div>
 
           {/* Segurança */}
-          <div className="bg-blue-400 p-6 text-center rounded-md">
+          <div className="bg-blue-400  p-6 text-center rounded-md">
             <img
               src="https://newfold.scene7.com/is/content/NewfoldDigital/icon-ssl?ts=1685529172768&dpr=off"
               alt="Segurança"

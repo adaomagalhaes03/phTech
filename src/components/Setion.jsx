@@ -1,6 +1,6 @@
 // src/components/PortfolioPortugueseSection.jsx
 //import React from 'react';
-import Face from '../assets/content.png';
+import Face from '../assets/contents.png';
 
 const PortfolioPortugueseSection = () => {
   return (
@@ -33,7 +33,7 @@ const PortfolioPortugueseSection = () => {
           <div className="w-full sm:w-5/12 px-4 mb-4">
             <div className="flex justify-center">
               <img
-                src={Face}
+                src="https://newfold.scene7.com/is/image/NewfoldDigital/content?ts=1685529187325&dpr=off&fmt=png-alpha"
                 alt=""
                 className="w-full h-auto"
                 loading="lazy"
