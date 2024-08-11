@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box; 
+}
+
+html, body {
+  height: 100%;
+}
+
+.bg-custom {
+  background-image: url('./assets/image.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.h-500px {
+  height: 500px !important;
+  
+}
