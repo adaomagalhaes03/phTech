@@ -31,8 +31,8 @@ const Navbar = () => {
           aria-expanded={isMobileMenuOpen}
           onClick={toggleMobileMenu}
         >
-          <span className="material-icons">
-            {isMobileMenuOpen ? 'close' : 'menu'}
+          <span className="material-icons font-bold">
+            {isMobileMenuOpen ? 'x' : 'menu'}
           </span>
         </button>
 
@@ -50,8 +50,8 @@ const Navbar = () => {
         </div>
 
         {/* Mobile Menu */}
-        <div className={`lg:hidden ${isMobileMenuOpen ? 'block' : 'hidden'} absolute top-16 left-0 w-full bg-white p-4`}>
-          <ul className="flex flex-col space-y-4">
+        <div className={`lg:hidden ${isMobileMenuOpen ? 'block' : 'hidden'} p-10  absolute top-16 mt-20 left-0 w-full bg-white `}>
+          <ul className="flex flex-col space-y-4 ">
             <li><a className="text-black hover:text-orange-500" href="https://www.newfold.com/brands">Marcas</a></li>
             <li><a className="text-black hover:text-orange-500" href="https://www.newfold.com/leadership">Lideranças</a></li>
             <li><a className="text-black hover:text-orange-500" href="https://www.newfold.com/careers">Carreiras</a></li>
